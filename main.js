@@ -75,7 +75,7 @@ const isLegal = (startStack, endStack) => {
 //pq ele usou slice? Unico motivo que usamos foi que olhamos outros exemplos AJUDA!!!!
 
 // Jeff falou que poderia usar o POP tb, o Slice eh mais preciso, vc consegue apontar exatamente qual argumento ele ta buscando.
-/*se o poste inicial tem maior de 0 blocos 
+/*se o poste inicial tem mais de 0 blocos
 
 
 
@@ -168,4 +168,4 @@ if (typeof describe === 'function') {
 
   getPrompt();
 
-} 
+} }
