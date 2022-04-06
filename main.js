@@ -64,7 +64,7 @@ const isLegal = (startStack, endStack) => {
   if(stacks[startStack].length > 0){
     if(stacks[endStack].length == 0) {
       return true
-    }if (stacks[endStack].slice(-1) > stacks[startStack].slice(-1)){
+    }if (stacks[endStack].slice(-1) > stacks[startStack].slice(-1)){ //o slice(-1) faz pegar o ultimo elemento e cria uma array com ulti item, sem mudar original
 
     return true
   } else{
